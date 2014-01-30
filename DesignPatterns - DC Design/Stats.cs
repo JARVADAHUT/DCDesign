@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns___DC_Design
 {
-    interface IGear : IInventoryItem
+    struct Stats
     {
+        int _maxHP, _curHp;
+        int _strength, _agility, _defense, _intelegence;
     }
 }

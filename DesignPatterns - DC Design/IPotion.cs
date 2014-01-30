@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns___DC_Design
 {
-    interface IGear : IInventoryItem
+    interface IPotion : IInventoryItem
     {
+        public void UsePotion(Target target);
     }
 }

@@ -8,11 +8,11 @@ namespace DesignPatterns___DC_Design
 {
     abstract class DungeonCharacter
     {
-        int _maxHP, _curHp;
-        int _maxResources, _curResources;
         GearSet _gearInfo;
         string name;
+        Stats dcStats;
 
         List<ICombatAction> combatActions;
+        Inventory inventory;
     }
 }

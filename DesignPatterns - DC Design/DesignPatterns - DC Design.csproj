@@ -43,6 +43,10 @@
   <ItemGroup>
     <Compile Include="DungeonCharacter.cs" />
     <Compile Include="GearInformation.cs" />
+    <Compile Include="IInventoryItem.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="IPotion.cs" />
+    <Compile Include="Stats.cs" />
     <Compile Include="ICombatAction.cs" />
     <Compile Include="IGear.cs" />
     <Compile Include="NullGear.cs" />
