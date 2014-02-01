@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns___DC_Design
 {
-    class GearSet
+    class CharacterGearSet
     {
         Dictionary<string, IGear> _gearSet;
 
-        public GearSet(string[] locations)
+        public CharacterGearSet(string[] locations)
         {
             _gearSet = new Dictionary<string, IGear>(locations.Length);
             foreach (string loc in locations)

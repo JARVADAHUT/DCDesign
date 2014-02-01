@@ -42,10 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DungeonCharacter.cs" />
-    <Compile Include="GearInformation.cs" />
+    <Compile Include="CharacterGearSet.cs" />
+    <Compile Include="Hero.cs" />
     <Compile Include="IInventoryItem.cs" />
     <Compile Include="Inventory.cs" />
     <Compile Include="IPotion.cs" />
+    <Compile Include="PublicEnums.cs" />
+    <Compile Include="StatAugmentCommand.cs" />
     <Compile Include="Stats.cs" />
     <Compile Include="ICombatAction.cs" />
     <Compile Include="IGear.cs" />

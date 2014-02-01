@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns___DC_Design
 {
-    interface IGear : IInventoryItem
+    class Hero : DungeonCharacter
     {
-        //Incomplete Interface
+        
+        public void useAction(int ActionNumber)
+        {
+            
+        }
     }
 }
